@@ -51,18 +51,18 @@ Click on Operations on multiple datasets (check box icon) at the top of the hist
 ## Importing the auxiliary dataset
 Click on the “Shared data” -> click on “data libraries” -> Search “GTN” in the search bar -> and direct to Material / Variant analysis / Mutation calling, viral genome reconstruction and lineage/clade assignment from SARS-CoV-2 sequencing data / DOI: 10.5281/zenodo.50366.
 
-## From FASTQ to annotated allelic variants
+## FASTQ to annotated allelic variants
 Open GitHub link (https://github.com/iwc-workflows/sars-cov-2-pe-illumina-artic-variant-calling) to download the “Illumina ARTIC PE” workflow -> click on pe-artic-variation.ga -> click on raw and copy the url: (https://raw.githubusercontent.com/iwc-workflows/sars-cov-2-pe-illumina-artic-variant-calling/main/pe-artic-variation.ga)
 Click on “Workflow” on galaxy interface -> click on “import” -> paste the workflow url in the Archived Workflow URL -> click on import.
 
 Once downloaded the workflow will appear on the workflow interface click on “run workflow” -> the workflow interface will appear -> select the desired data and click “Run workflow” on right top of the panel [The process will takes approximately 3 hours] 
 
 
-## From annotated AVs per sample to AV summary
+## Annotated AVs per sample to AV summary
 Import the workflow via its github repo link (https://github.com/iwc-workflows/sars-cov-2-variation-reporting/blob/main/variation-reporting.ga) -> select the desired data and run the workflow
-## From AVs to consensus sequences
+## AVs to consensus sequences
 Import the workflow via its github repo link ( https://github.com/iwc-workflows/sars-cov-2-consensus-from-variation/blob/main/consensus-from-variation.ga) -> select the desired data and run the workflow.
-## From consensus sequences to clade/lineage assignments
+## Consensus sequences to clade/lineage assignments
 Type “Pangolin” in galaxy tool search bar -> select the “multi sample consensus fasta data and keep all other parameter as default and execute.
 
 
@@ -70,10 +70,11 @@ Type “Nextclade” in galaxy tool search bar -> select the “multi sample con
 
 To obtain different lineages vs samples for each lineage in Pangolin output -> search “Group” in the tool search bar -> select the output of pangolin -> “Group by column” -> Column: 2 -> “Operation” type “Count on column “column: 1” and execute.
 To obtain different lineages vs samples for each lineage in Nextclade output -> search “Group” in the tool search bar -> select the output of pangolin -> “Group by column” -> Column: 2 -> “Operation” type “Count on column “column: 1” and execute.
-## between Pangolin and Nextclade clade assignments
+## Comparison between Pangolin and Nextclade clade assignments
 Search “cut” tool on the search bar -> select Pangolin output data -> cut by columns c1, c2 -> delimited by Tab
 Search “cut” tool on the search bar -> select NextClad output data -> cut by columns c1, c2 -> delimited by Tab
 Join the two data set : search “join” tool in search bar -> select the dataset Panlogine and Nextclade -> join by colum ce and execute.
+
 Link to the galaxy workflow is provided below:
 @SuPrSh- https://usegalaxy.org/u/sharmasp/h/hackbio-assignment-3
 
