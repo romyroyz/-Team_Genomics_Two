@@ -3,7 +3,7 @@
 This is HackBio repository for Team_Genomics_Two as a part of stage 1 of the internship
 
 <h1 align="center">Hello 👋, We are Team_Genomics_Two 👋</h1>
-<h3 align="center">The team of 10  budding scientists for HackBio-2021 Virtual Bioinformatics Internship </h3>
+<h3 align="center">The team of budding scientists for HackBio-2021 Virtual Bioinformatics Internship </h3>
 
 
 ![FAS4VlEWYAMMwbn](https://user-images.githubusercontent.com/92309828/139589654-21370596-aef8-4108-8a77-de49bfd94d03.jpg)
