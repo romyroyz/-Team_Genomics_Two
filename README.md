@@ -1,4 +1,4 @@
-# -Team_Genomics_Two
+# Team_Genomics_Two
 
 This is HackBio repository for Team_Genomics_Two as a part of stage 1 of the internship
 
