@@ -37,7 +37,7 @@ Mutation calling, viral genome reconstruction and lineage/clade assignment from 
 
 # Steps involved:
 ## Preparing galaxy history
-Create a new history for this analysis (Open galaxy website (https://usegalaxy.org/) ->Click ‘Create new history’ on the right top panel -> rename the history as HackBio.assighment.03
+Create a new history for this analysis (Open galaxy website (https://usegalaxy.eu/) ->Click ‘Create new history’ on the right top panel -> rename the history as HackBio.assighment.03
 ## Data download
 There are few options available for data obtaining data for the analysis. e.g., FTP, used downloaded file, import form external link or use Shared data. For execution of the tutorial, we have used data for “Shared data”
 Click on the “Shared data” -> click on “data libraries” -> Search “GTN” in the search bar -> and direct to Material / Variant analysis / Mutation calling, viral genome reconstruction and lineage/clade assignment from SARS-CoV-2 sequencing data / DOI: 10.5281/zenodo.50366 -> download any three compete dataset.
@@ -76,5 +76,5 @@ Search “cut” tool on the search bar -> select NextClad output data -> cut by
 Join the two data set : search “join” tool in search bar -> select the dataset Panlogine and Nextclade -> join by colum ce and execute.
 
 Link to the galaxy workflow is provided below:
-@SuPrSh- https://usegalaxy.org/u/sharmasp/h/hackbio-assignment-3
+https://usegalaxy.eu/u/romyroyz/h/tutorial2 
 
