@@ -4,12 +4,13 @@ This is HackBio repository for Team_Genomics_Two as a part of stage 1 of the int
 
 <h1 align="center">Hello 👋, We are Team_Genomics_Two 👋</h1>
 <h3 align="center">The team of 10  budding scientists for HackBio-2021 Virtual Bioinformatics Internship </h3>
+![image](https://user-images.githubusercontent.com/92309828/139589350-30bbf9d3-8655-457f-9309-12837f192722.png)
 
-## Project
+Image Source: [@tbi_internship](https://twitter.com/tbi_internship)
+# Project
 Mutation calling, viral genome reconstruction and lineage/clade 
 
-![HackBio](https://github.com/Team-Gilbert/team-gilbert/blob/hildred/stage1/hackbio.jpeg) <br>
-Image Source: [@tbi_internship](https://twitter.com/tbi_internship)
+
 
 # Table of content
 * Title
