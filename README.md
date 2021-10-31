@@ -46,7 +46,7 @@ Click on the “Shared data” -> click on “data libraries” -> Search “GTN
 
 
 ## Creating a collection to organizing the data
-Click on Operations on multiple datasets (check box icon) at the top of the history pane > check all the dataset downloaded -> Click on Build the dataset
+Click on Operations on multiple datasets (check box icon) at the top of the history pane > check all the dataset downloaded -> Click on Build the paired dataset
 
 ## Importing the auxiliary dataset
 Click on the “Shared data” -> click on “data libraries” -> Search “GTN” in the search bar -> and direct to Material / Variant analysis / Mutation calling, viral genome reconstruction and lineage/clade assignment from SARS-CoV-2 sequencing data / DOI: 10.5281/zenodo.50366.
